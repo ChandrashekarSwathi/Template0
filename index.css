@@ -70,7 +70,7 @@ body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
     font-weight: 400;
-    color: var(--white-1);
+    color: var(--black); /* SC:CHANGE FROM WHITE -> BLACK */
     line-height: var(--line-height-normal);
     background: var(--white); /* SC:CHANGE FROM BLACK -> WHITE */
     overflow-x: hidden;
@@ -125,7 +125,7 @@ h3 {
     font-family: 'Jost', sans-serif;
     font-weight: 400;
     line-height: var(--line-height-small);
-    color: var(--white);
+    color: var(--black); /* SC:CHANGE FROM WHITE -> BLACK */
 }
 
 .heading-primary {
@@ -188,7 +188,7 @@ p {
 /* --------------------------------------- */
 
 a {
-    color: var(--white);
+    color: var(--black); /* SC:CHANGE FROM WHITE -> BLACK */
     font-weight: 400;
     font-family: 'Jost', sans-serif;
     transition: all .2s;
@@ -276,7 +276,7 @@ body:not(.user-is-tabbing) a:focus {
     top: 0;
     left: 0;
     right: 100%;
-    background: var(--white);
+    background: var(--black); /* SC:CHANGE FROM WHITE -> BLACK */
     height: 100%;
     z-index: -1;
     transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
@@ -385,7 +385,7 @@ body:not(.user-is-tabbing) a:focus {
     right: 100%;
     display: inline-block;
     height: 1rem;
-    background: var(--white);
+    background: var(--black); /* SC:CHANGE FROM WHITE -> BLACK */
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
