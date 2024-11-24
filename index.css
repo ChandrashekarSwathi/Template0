@@ -333,78 +333,9 @@ body:not(.user-is-tabbing) a:focus {
 
 
 /* --------------------------------------- */
-/* ----------- Modified Navigation ------- */
-/* --------------------------------------- */
-.nav {
-    display: flex;
-    justify-content: flex-start; /* Align to the start */
-    padding: var(--gutter-normal) 0;
-}
-
-.nav__items {
-    display: flex;
-    margin-left: auto; /* Push items to the right */
-    list-style: none;
-}
-
-.nav__item:not(:last-child) {
-    margin-right: var(--gutter-medium);
-}
-
-@media(max-width: 500px) {
-    .nav {
-        justify-content: center; /* Center for small screens */
-    }
-}
-
-@media(max-width: 400px) {
-    .nav__item:not(:last-child) {
-        margin-right: var(--gutter-normal);
-    }
-}
-
-@media(max-width: 300px) {
-    .nav {
-        font-size: var(--font-size-small);
-    }
-}
-
-.nav__link {
-    position: relative;
-    display: inline-block;
-    padding: 1rem 0;
-    text-decoration: none;
-    color: inherit;
-    transition: all .2s;
-}
-
-.nav__link::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 100%;
-    display: inline-block;
-    height: 1rem;
-    background: var(--black);
-    transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
-}
-
-.nav__link:hover {
-    color: var(--pink);
-}
-
-.nav__link:hover::after {
-    right: 0;
-    height: 2px;
-    background: var(--pink);
-}
-
-
-/* --------------------------------------- */
 /* ----- Original Navigation ----- */
 /* --------------------------------------- */
-/*
+
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -413,7 +344,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     display: flex;
-    justify-content: flex-end; /* SC: ADDED THIS 
+    justify-content: flex-end; /* SC: ADDED THIS */
     list-style: none;
 } 
 
@@ -456,7 +387,7 @@ body:not(.user-is-tabbing) a:focus {
     right: 100%;
     display: inline-block;
     height: 1rem;
-    background: var(--black); /* SC:CHANGE FROM WHITE -> BLACK 
+    background: var(--black); /* SC:CHANGE FROM WHITE -> BLACK */
     transition: all 0.25s cubic-bezier(1, 0.68, 0.16, 0.9);
 }
 
