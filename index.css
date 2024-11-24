@@ -338,14 +338,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-left;
     padding: var(--gutter-normal) 0;
 }
 
 .nav__items {
     display: flex;
-    justify-content: flex-end; /* SC: ADDED THIS */
-    margin-left: auto;
+    justify-content: flex-left; /* SC: ADDED THIS */
+    /* margin-left: auto; */
     list-style: none;
 } 
 
