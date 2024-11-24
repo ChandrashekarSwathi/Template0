@@ -338,14 +338,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav {
     display: flex;
-    justify-content: flex-left;
+    justify-content: flex-end;
     padding: var(--gutter-normal) 0;
 }
 
 .nav__items {
     display: flex;
-    justify-content: flex-left; /* SC: ADDED THIS */
-    /* margin-left: auto; */
+    justify-content: flex-end; /* SC: ADDED THIS */
+    margin-left: auto;
     list-style: none;
 } 
 
@@ -355,6 +355,7 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .nav {
+        display: flex; /* SC: CHECK ON PHONE */
         justify-content: center;
     }
 }
