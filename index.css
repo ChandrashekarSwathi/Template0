@@ -353,7 +353,6 @@ body:not(.user-is-tabbing) a:focus {
 
 @media(max-width: 500px) {
     .nav {
-        display: flex; /* SC: CHECK ON PHONE */
         justify-content: center;
     }
 }
