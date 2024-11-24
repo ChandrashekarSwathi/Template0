@@ -535,17 +535,26 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 /* ----- About ----- */
 /* --------------------------------------- */
+.about {
+    text-align: centre;
+}
+
+.about__text {
+    text-align: justify; /* Justifies the text */
+    margin: 0 auto; /* Centers the text block */
+}
 
 .about__content {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: Centre;
 }
 
 @media(max-width: 900px) {
     .about__content {
         flex-direction: column-reverse;
-        align-items: initial;
+        align-items: centre;
     }
 }
 
