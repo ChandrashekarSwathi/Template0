@@ -343,6 +343,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .nav__items {
     display: flex;
+    justify-content: flex-end; /* SC: ADDED THIS */
     list-style: none;
 }
 
