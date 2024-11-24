@@ -345,7 +345,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav__items {
     display: flex;
     justify-content: flex-end; /* SC: ADDED THIS */
-    margin-left: auto;
+    margin-left: 1em;
     list-style: none;
 } 
 
