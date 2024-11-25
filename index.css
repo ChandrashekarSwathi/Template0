@@ -697,3 +697,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-top: 120px;
     padding-bottom: 50px;
 }
+
+.about__content, .about__text {
+    padding: 0; /* Remove or adjust padding */
+}
