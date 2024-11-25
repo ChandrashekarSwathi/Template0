@@ -541,13 +541,14 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__text {
     text-align: justify; /* Justifies the text */
+    text-align-last: centre;
     max-width: 800px; /* Optional: to control the width of the text */
     margin: 0 auto; /* Centers the text block */
 }
 
 .about__content {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     align-items: center;
     justify-content: Centre;
 }
