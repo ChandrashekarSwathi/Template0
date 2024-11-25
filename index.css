@@ -437,49 +437,6 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* MY CODE */
-.header {
-    display: flex; /* Enables Flexbox layout */
-    align-items: center; /* Vertically aligns content within the header */
-    justify-content: space-between; /* Places text and image on opposite sides */
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    font-size: var(--font-size-normal);
-    padding: 0 2rem; /* Adds some horizontal padding for spacing */
-}
-
-.header__text {
-    max-width: 50%; /* Limits the text container to half the width */
-    font-size: var(--font-size-medium);
-}
-
-.header__image {
-    max-width: 40%; /* Limits the image container width */
-}
-
-.header__image img {
-    width: 100%; /* Ensures the image fills its container */
-    height: auto; /* Maintains the image's aspect ratio */
-}
-
-@media(max-width: 500px) {
-    .header {
-        flex-direction: column; /* Stacks text and image vertically for small screens */
-        text-align: center;
-    }
-
-    .header__text, .header__image {
-        max-width: 100%; /* Make text and image take up full width on smaller screens */
-    }
-
-    .header__image {
-        margin-top: 1rem; /* Adds spacing between text and image */
-    }
-}
-
-
 /* --------------------------------------- */
 /* ----- Work ----- */
 /* --------------------------------------- */
