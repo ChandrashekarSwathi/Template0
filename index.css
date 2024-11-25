@@ -542,7 +542,7 @@ body:not(.user-is-tabbing) a:focus {
 .about__text {
     text-align: justify; /* Justifies the text */
     text-align-last: centre;
-    max-width: 500px; /* Optional: to control the width of the text */
+    max-width: 1200px; /* Optional: to control the width of the text */
     margin: 0 auto; /* Centers the text block */
 }
 
