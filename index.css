@@ -687,33 +687,3 @@ body:not(.user-is-tabbing) a:focus {
     text-decoration: underline;
 }  
 
-
-.webDeveloper {
-    margin-block-end: .5rem;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-.developerDescription {
-    padding-bottom: 15px;
-}
-
-.header-bar {
-    font-family: "raleway-bold";
-    background: #444649;
-    height: 4px;
-    margin: 0 auto;
-    width: 6%;
-    min-width: 60px;
-    margin-bottom: 30px;
-}
-
-.about {
-    width: 90%;
-    background-color: #FFFFFF;
-    border-radius: 20px;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    margin: -7% auto 50px auto;
-    padding-top: 50px;
-    margin-top: 120px;
-    padding-bottom: 50px;
-}
